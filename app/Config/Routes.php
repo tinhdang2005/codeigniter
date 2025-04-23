@@ -10,7 +10,7 @@ $routes->get('/', 'Home::index');
 /// Home => Controller
 /// ::restaurants => hàm trong controller
 //nhánh main -> sửa nhánh main
-///asdasdsad
+
 $routes->get('/res', 'Home::restaurants');
 $routes->group("admin",function($routes){
     $routes->get('login', 'admin\Login::index');
